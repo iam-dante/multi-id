@@ -570,14 +570,6 @@ video {
   width: 793px;
 }
 
-.w-24{
-  width: 6rem;
-}
-
-.w-20{
-  width: 5rem;
-}
-
 .w-12{
   width: 3rem;
 }
@@ -608,6 +600,18 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-16{
+  gap: 4rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-y-12 > :not([hidden]) ~ :not([hidden]){
@@ -654,6 +658,14 @@ video {
 
 .border-t{
   border-top-width: 1px;
+}
+
+.border-r{
+  border-right-width: 1px;
+}
+
+.border-l{
+  border-left-width: 1px;
 }
 
 .border-black{
@@ -727,12 +739,12 @@ video {
   font-family: Times New Roman Bold, sans-serif;
 }
 
-.font-robot{
-  font-family: Roboto Mono, monospace;
-}
-
 .font-times{
   font-family: Times New Roman, sans-serif;
+}
+
+.font-robot{
+  font-family: Roboto Mono, monospace;
 }
 
 .text-lg{
