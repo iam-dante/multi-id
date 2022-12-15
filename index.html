@@ -13,7 +13,7 @@
     <main class="px-2 lg:px-24">
       <div class="mt-12 flex w-full items-center justify-center px-8">
         <div
-          class="flex flex-col items-center justify-center space-y-12 rounded-md bg-white px-12 py-8 shadow-lg"
+          class="flex flex-col items-center justify-center space-y-12 rounded-md bg-white px-12 py-8 shadow-lg print:block"
         >
           <button
             class="bg-crvsblue-700 flex space-x-2 rounded bg-sky-700 px-4 py-4 font-semibold uppercase text-white hover:bg-sky-100 hover:text-sky-700"
@@ -39,85 +39,249 @@
         </div>
       </div>
 
-      <div class="flex items-center justify-center pt-24">
-        <div id="form" class="h-[900px] w-[793px] border-t border-r border-l border-black p-6">
+      <div class="flex items-center justify-center py-12 pt-24">
+        <div
+          id="form"
+          class="relative w-[793px] border border-black p-6"
+        >
+          <div class=" absolute right-6 ml-6 flex items-center">
+            <h class="font-times text-sm font-light uppercase"
+              >Printed Date :
+            </h>
+            <h class="ml-2 font-medium">12/12/2022</h>
+          </div>
           <div class="flex flex-col items-center justify-center space-y-4">
             <img src="./image/zcsra-image.png" class="h-32" />
-            <div class="flex flex-col space-y-1 items-center">
-
-              <h class="text-lg font-bold uppercase font-timesbold">ZANZIBAR CIVIL STATUS REGISTRATION AGENCY</h>
-              <h class="text-lg font-bold uppercase font-timesbold">Multi-ID | DELIVERY REPORT</h>
+            <div class="flex flex-col items-center space-y-1">
+              <h class="font-timesbold text-lg font-bold uppercase"
+                >ZANZIBAR CIVIL STATUS REGISTRATION AGENCY</h
+              >
+              <h class="font-timesbold text-lg font-bold uppercase"
+                >Multi-ID | DELIVERY REPORT</h
+              >
             </div>
           </div>
 
-          <div class="mt-4 px-4 border-t border-black py-4">
-            <div class="grid grid-cols-2 gap-4">
-              <div class="flex items-center justify-center">
-                <h class="uppercase text-sm font-times font-light">Organisation Name : </h>
-                <h class="ml-2"> SoftNet Technologies</h>
+          <div class="mt-4 border-t border-black py-4">
+            <div class="ml-6 grid grid-cols-2 gap-4">
+              <div class="flex items-center">
+                <h class="font-times text-sm  uppercase"
+                  >Organisation Name :
+                </h>
+                <h class="ml-2 font-medium"> SoftNet Technologies</h>
               </div>
-              <div class="flex items-center justify-center">
-                <h class="uppercase text-sm font-times font-light">Printed Date : </h>
-                <h class="ml-2">12/12/2022</h>
+
+              <div class="flex items-center">
+                <h class="font-times text-sm font-light uppercase"
+                  >Dispatch Number :
+                </h>
+                <h class="ml-2 font-medium">39093848329483</h>
+              </div>
+              <div class="flex items-center">
+                <h class="font-times text-sm font-light uppercase">Passed: </h>
+                <h class="ml-2 font-medium">3232022</h>
+              </div>
+
+              <div class="flex items-center">
+                <h class="font-times text-sm font-light uppercase">Failed : </h>
+                <h class="ml-2 font-medium">4342022</h>
               </div>
             </div>
           </div>
 
-          <table
-            class="mt-12 w-full table-fixed border-collapse border border-black"
+          <div class="mt-4 pb-16">
+            <table
+              class="w-full table-fixed border-collapse border border-black"
+            >
+              <thead class="uppercasea w-full bg-black font-robot text-white">
+                <tr>
+                  <th class="w-12">No.</th>
+                  <th>First Name.</th>
+                  <th>Last Name.</th>
+                  <th>Serial Number</th>
+                </tr>
+              </thead>
+              <tbody class="space-x-4">
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="tabledata">1</td>
+                  <td class="tabledata">Malcolm Lockyer</td>
+                  <td class="tabledata">1961</td>
+                  <td class="tabledata">1961</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div
+            class="absolute bottom-4 right-0 flex h-12 w-full items-center space-x-10 px-12"
           >
-            <thead class="uppercasea w-full bg-black text-white font-robot ">
-              <tr>
-                <th class=" w-12">No.</th>
-                <th>Serial Number</th>
-                <th>Cards</th>
-              </tr>
-            </thead>
-            <tbody class="space-x-4">
-              <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
+            <div class="flex space-x-4">
+              <h>Recieved By</h>
+              <div class="w-56 border-b border-dashed border-black"></div>
+            </div>
 
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-
-               <tr class="text-center ">
-                <td class="tabledata"> 1</td>
-                <td class="tabledata">Malcolm Lockyer</td>
-                <td class="tabledata">1961</td>
-              </tr>
-            </tbody>
-          </table>
+            <div class="flex space-x-4">
+              <h>Signature</h>
+              <div class="w-56 border-b border-dashed border-black"></div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -140,7 +304,7 @@
         removeInline: true,
         header: null,
         footer: null,
-        pageTitle: "Marriage Detail Update Form",
+        pageTitle: " ",
       });
     });
   </script>
